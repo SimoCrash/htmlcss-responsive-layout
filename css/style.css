@@ -23,7 +23,7 @@ html {
 
 /* header */
 
-/* header-container-top */
+/* nav-bar-top */
 
 .nav-top {
     height: 75px;
@@ -81,3 +81,7 @@ html {
         display: none;
     }
 }
+
+
+/* main */
+
