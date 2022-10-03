@@ -10,7 +10,7 @@ html {
 
 /* general */
 
-.container-top {
+.nav-top .container-top, .section-top {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -20,6 +20,8 @@ html {
     display: inline-block;
     white-space: nowrap;
 }
+
+
 
 /* header */
 
@@ -85,3 +87,51 @@ html {
 
 /* main */
 
+/* section-top */
+
+.section-top .container-top {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #B5DDFF;
+    padding: 30px 20px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.section-top .container-top h2 {
+    color: #0084FD;
+}
+
+.card .btn {
+    background-color: #0084FD;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 30px;
+}
+
+.card {
+    flex: 2 0 0;
+}
+
+.big-card {
+    display: flex;
+    flex: 3 0 0;
+}
+
+.big-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-store {
+    flex: 1 0 50%;
+}
+
+.manna {
+    flex: 1 0 50%;
+}
