@@ -112,26 +112,34 @@ html {
     text-decoration: none;
     padding: .5rem;
     border-radius: 30px;
+    width: 60%;
+    text-align: center;
 }
 
 .card {
-    flex: 2 0 0;
-}
-
-.big-card {
-    display: flex;
-    flex: 3 0 0;
+    flex:1 0 calc(100% / 3 - 1.5rem * 2);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5rem;
 }
 
 .big-card {
     display: flex;
     justify-content: space-around;
-}
+    flex: 9 0 calc(100% / 2 - 1.5rem);
+    padding-bottom: 0;
+} 
 
 .app-store {
-    flex: 1 0 50%;
+    width: 50%;
 }
 
-.manna {
-    flex: 1 0 50%;
+.card h2, .card p, .card .store {
+    margin-top: 30px;
 }
+
+.card img {
+    width: 50%;
+}
+
+
