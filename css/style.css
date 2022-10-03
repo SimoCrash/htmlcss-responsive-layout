@@ -100,38 +100,33 @@ html {
     padding: 30px 20px;
     margin: auto;
     border-radius: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
 }
 
-.section-top .container-top h2 {
+
+
+.section-top .container-top h2, .card .icon-card {
     color: #0084FD;
 }
 
+.card .icon-card {
+    font-size: 4rem;
+}
+
+.s-card {
+    text-align: center;
+}
+
 .card .btn {
-    background-color: #0084FD;
     color: white;
     text-decoration: none;
     padding: .5rem;
     border-radius: 30px;
     width: 60%;
+    white-space: nowrap;
     text-align: center;
-}
-
-.card {
-    flex:1 0 calc(100% / 3 - 1.5rem * 2);
-    margin-right: 30px;
-    margin-bottom: 30px;
-    line-height: 1.5rem;
-}
-
-.big-card {
-    display: flex;
-    justify-content: space-around;
-    flex: 9 0 calc(100% / 2 - 1.5rem);
-    padding-bottom: 0;
-} 
-
-.app-store {
-    width: 50%;
+    background-color: #0084FD;
 }
 
 .card h2, .card p, .card .store {
@@ -139,7 +134,68 @@ html {
 }
 
 .card img {
-    width: 50%;
+    margin-top: 30px;
+    width: 100%;
 }
 
+@media screen and (min-width: 811px) {
+    
+    .app-store {
+        width: 50%;
+    }
+
+    .card {
+        flex: 1 0 calc(100% / 3 - 1.5rem * 2);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+        flex-direction: row;
+    }
+
+    .big-card {
+        display: flex;
+        flex: 9 0 calc(100% / 2 - 1.5rem);
+        padding-bottom: 0;
+        flex-direction: row;
+    } 
+
+    .card img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 810px) {
+    
+    .app-store {
+        width: 50%;
+    }
+
+    .card {
+        flex: 1 0 calc(100% / 3 - 1.5rem * 2);
+        margin-right: 30px;
+        margin-bottom: 30px;
+        line-height: 1.5rem;
+        flex-direction: column;
+    }
+
+    .big-card {
+        display: flex;
+        flex: 9 0 calc(100% / 2 - 1.5rem);
+        padding-bottom: 0;
+        flex-direction: row;
+    } 
+
+    .card img {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .s-card {
+    text-align: center;
+    }
+
+    .card img {
+        width: 50%;
+    }
+}
 
