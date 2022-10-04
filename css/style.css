@@ -347,7 +347,12 @@ html {
     line-height: 1.5rem;
 }
 
-.container-section-centre-bottom h2, .more {
+.title-benefits {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.title-benefits, .more {
     color: white;
 }
 
@@ -360,7 +365,6 @@ html {
 
 .card-benefit {
     background-color: white;
-    margin: auto;
     flex-basis: 51%;
     border-radius: 30px;
     padding: 1rem;
@@ -381,4 +385,32 @@ html {
     width: 50%;
     text-align: center;
     padding: 10px 0;
+}
+
+@media screen and (min-width:376px) and (max-width: 810px) {
+    
+    .container-section-centre-bottom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card-benefit {
+        flex-basis: calc(100% / 2 - 1rem);
+    }
+}
+
+@media screen and (min-width: 811px) {
+    
+    .container-section-centre-bottom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card-benefit {
+        flex-basis: calc(100% / 3 - 2rem);
+    }
 }
