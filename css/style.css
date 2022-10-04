@@ -336,12 +336,12 @@ html {
     .text-partners {
         text-align: left;
     }
-/* 
-    .cont-img {
-        gap: 1rem;
-    } */
 }
 
-/* @media screen and (min-width: 811px) {
-    
-} */
+
+/* section-centre-bottom - BENEFIT */
+
+.section-centre-bottom {
+    display: flex;
+    flex-direction: column;
+}
