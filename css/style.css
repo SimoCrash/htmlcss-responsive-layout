@@ -11,7 +11,7 @@ html {
 
 /* general */
 
-.nav-top .container-top, .section-top, .section-centre {
+.nav-top .container-top, .section-top, .section-centre, .container-section-centre-bottom {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -342,6 +342,43 @@ html {
 /* section-centre-bottom - BENEFIT */
 
 .section-centre-bottom {
+    margin: 100px 0;
+    background-color: #9792e4;
+    line-height: 1.5rem;
+}
+
+.container-section-centre-bottom h2, .more {
+    color: white;
+}
+
+.container-section-centre-bottom {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-benefit {
+    background-color: white;
+    margin: auto;
+    flex-basis: 51%;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.card-benefit h2, h3 {
+    color: #9792e4;
+    margin-top: 1rem;
+}
+
+.card-benefit h2, h3, p, .more {
+    margin-top: 1rem;
+}
+
+.more {
+    background-color: #9792e4;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
 }
