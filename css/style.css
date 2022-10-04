@@ -11,7 +11,8 @@ html {
 
 /* general */
 
-.nav-top .container-top, .section-top, .section-centre, .container-section-centre-bottom {
+.nav-top .container-top, .section-top, .section-centre, 
+.container-section-centre-bottom, .section-bottom-top {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -416,4 +417,107 @@ html {
     .card-benefit {
         flex-basis: calc(100% / 3 - 2rem);
     }
+}
+
+
+/* section-bottom - About Us */
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    line-height: 2rem;
+    padding-bottom: 30px;
+}
+
+.about-us h2 {
+    color: #9792e4;
+}
+
+.cit {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.container-cit {
+    position: relative;
+    width: 160px;
+    height: 160px;
+}
+
+.cit-img {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+
+.mark {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    color: #9792e4;
+    font-size: 40px;
+}    
+
+.cit-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    white-space: nowrap;
+}
+
+.btn-find {
+    background-color: #9792e4;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.btn-find i {
+    background-color: white;
+    padding: 2px;
+    color: #9792e4;
+    font-size: .7rem;
+}
+
+@media screen and (min-width: 650px) {
+    
+    .section-bottom-top {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 40px;
+    }
+
+    .cit {
+        flex: 1 0 40%;
+    }
+
+    .container-cit {
+        position: relative;
+        width: 260px;
+        height: 260px;
+
+    }
+    
+    .cit-img {
+        margin-top: 20px;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .mark {
+        font-size: 60px;
+    }
+    
 }
