@@ -94,21 +94,18 @@ html {
 /* section-top */
 
 .section-top .container-top {
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .card {
     background-color: #B5DDFF;
-    padding: 30px 20px;
+    padding: 1rem;
     margin: auto;
-    border-radius: 30px;
-    margin-bottom: 30px;
+    border-radius: 2rem;
     flex-direction: column;
 }
-
-
 
 .section-top .container-top h2, .card .icon-card {
     color: #0084FD;
@@ -138,8 +135,7 @@ html {
 }
 
 .card img {
-    margin-top: 30px;
-    width: 100%;
+    max-width: 100%;
 }
 
 @media screen and (min-width: 811px) {
@@ -149,7 +145,7 @@ html {
     }
 
     .card {
-        flex: 1 0 calc(100% / 3 - 1.5rem * 2);
+        flex: 1 0 calc(100% / 3 - 2rem * 2);
         margin-right: 30px;
         margin-bottom: 30px;
         line-height: 1.5rem;
@@ -158,14 +154,15 @@ html {
 
     .big-card {
         display: flex;
-        flex: 9 0 calc(100% / 2 - 1.5rem);
+        flex: 9 0 calc(100% / 2 - 2rem);
         padding-bottom: 0;
         flex-direction: row;
     } 
 
-    .card img {
+    .card img { 
         width: 50%;
     }
+    /* vedere lui */
 }
 
 @media screen and (min-width: 376px) and (max-width: 810px) {
