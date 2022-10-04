@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
 
 /* general */
@@ -40,7 +41,6 @@ html {
 }
 
 .nav-top .hamburger {
-    font-size: 1.5rem;
     color: white;
 }
 
@@ -219,10 +219,39 @@ html {
 .section-centre-top {
     margin-top: 2rem;
     background-color: #9792e4;
+    padding: 1rem;
 }
 
 .section-centre-top img {
     max-width: 100%;
 }
 
+.planning {
+    color: white;
+}
 
+.planning h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.developement {
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 30px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.developement .arrow-down {
+    border-radius: 50%;
+    background-color: #9792e4;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
