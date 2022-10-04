@@ -11,7 +11,7 @@ html {
 
 /* general */
 
-.nav-top .container-top, .section-top {
+.nav-top .container-top, .section-top, .section-centre {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
@@ -306,21 +306,42 @@ html {
     height: 150px;
     align-self: center;
     overflow: hidden;
+    text-align: center;
 }
 
 .img-circle img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    white-space: nowrap;
 }
 
-@media screen and (min-width: 670px) and (max-width: 810) {
+.cont-img {
+    align-self: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 376px) {
 
     .partners-card {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
-    .yessa {
-        float: left;
+    .uppercase {
+        margin-top: 1rem;
     }
+    
+    .text-partners {
+        text-align: left;
+    }
+/* 
+    .cont-img {
+        gap: 1rem;
+    } */
 }
+
+/* @media screen and (min-width: 811px) {
+    
+} */
