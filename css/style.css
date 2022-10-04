@@ -91,7 +91,7 @@ html {
 
 /* main */
 
-/* section-top */
+/* section-top - CARD */
 
 .section-top .container-top {
     margin-top: 1rem;
@@ -212,4 +212,17 @@ html {
         width: 50%;
     } */
 }
+
+
+/* section centre top - PLANING */
+
+.section-centre-top {
+    margin-top: 2rem;
+    background-color: #9792e4;
+}
+
+.section-centre-top img {
+    max-width: 100%;
+}
+
 
