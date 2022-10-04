@@ -214,7 +214,7 @@ html {
 }
 
 
-/* section centre top - PLANING */
+/* section centre top - PLANNING */
 
 .section-centre-top {
     margin-top: 2rem;
@@ -244,14 +244,13 @@ html {
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .developement .arrow-down {
     border-radius: 50%;
     background-color: #9792e4;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     padding: 5px;
-    text-align: center;
 }
