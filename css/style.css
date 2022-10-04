@@ -277,6 +277,8 @@ html {
     text-align: center;
     padding: 1rem;
     line-height: 1.5rem;
+    display: flex;
+    gap: 2rem;
 }
 
 .container-section-centre {
@@ -345,6 +347,7 @@ html {
     margin: 100px 0;
     background-color: #9792e4;
     line-height: 1.5rem;
+    padding-bottom: 100px;
 }
 
 .title-benefits {
