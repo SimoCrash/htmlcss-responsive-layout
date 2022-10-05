@@ -521,3 +521,31 @@ html {
     }
     
 }
+
+/* section-bottom-footer - GET STARTED */
+
+.section-bottom-footer {
+    background-color: #9792e4;
+}
+
+.container-get-started {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px 1rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.container-get-started h2 {
+    color: orange;
+}
+
+.container-get-started .btn-get-started {
+    color: #9792e4;
+    background-color: white;
+    border-radius: 50px;
+    width: 90%;
+    text-align: center;
+    padding: 20px 30px;
+}
